@@ -1,0 +1,21 @@
+{
+    "name": "vdes/dreams",
+    "description": "Template admin VDES-Dreams",
+    "type": "library",
+    "require": {
+        "php": "7.4|8.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vdes\\Dreams\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "arifiik",
+            "email": "arifiik@vitech.asia"
+        }
+    ],
+    "minimum-stability": "dev"
+}
