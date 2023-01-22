@@ -13,7 +13,7 @@
     {!! \Vdes\Dreams\Dream::css() !!}
     {{-- <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css"> --}}
     @stack('css')
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{url('/assets/css/style.css')}}">
 </head>
 <body>
     {{-- loading --}}
@@ -84,6 +84,7 @@
     <script src="assets/js/dataTables.bootstrap4.min.js"></script>
     <script src="assets/plugins/apexchart/apexcharts.min.js"></script>
     <script src="assets/plugins/apexchart/chart-data.js"></script> --}}
-    <script src="assets/js/script.js"></script>
+    <script src="{{url('/assets/js/script.js')}}"></script>
+    @stack('html')
 </body>
 </html>
